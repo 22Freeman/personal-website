@@ -172,6 +172,19 @@ body {
 hr {
   width: 60%;
   background-color: #808080; /* works on Firefox */
-  border-color: #808080;
+  border-color: #808080; /* works on chrome and safari */
+  color: #808080; /* works on the one no one uses*/
+}
+.back {
+  vertical-align: bottom;
+  align: left;
+}
+.back:hover {
+    color: #808080;
+}
+.about:hover {
   color: #808080;
+}
+footer {
+  color: rgba(255,255,255,.5);
 }
