@@ -169,3 +169,9 @@ body {
     width: 700px;
   }
 }
+hr {
+  width: 60%;
+  background-color: #808080; /* works on Firefox */
+  border-color: #808080;
+  color: #808080;
+}
